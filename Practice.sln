@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{6CD28AE9-8E2C-40DA-958E-798B18C8A57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Mvc5", "Practice.Mvc5\Practice.Mvc5.csproj", "{4C9294C5-1231-4E6C-8AED-D580FA34CC11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C14865D5-CBF6-4A97-AD80-9F6FD6B7DE04}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LNQ", "LNQ", "{AB27FFF4-BEC2-4FAD-BC43-18AF3916831D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.LNQ", "Practice.LNQ\Practice.LNQ.csproj", "{E98BD066-EDAE-4D23-9A28-C3ABA232123D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.LNQ.ConsoleApp", "Practic.LNQ.Console\Practice.LNQ.ConsoleApp.csproj", "{57A7AA7A-E967-4FB4-B756-729AA4B43A62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{C46B5C36-465D-4517-BA14-FBEF35F571AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Extensions", "Practice.Extensions\Practice.Extensions.csproj", "{A55C22D0-5E94-4C43-A7E8-513F1731F1A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD", "DDD", "{A1398AED-B6FA-48AD-8E3C-CAF56F39D0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.DDD.SharedKernel", "Practice.DDD.SharedKernel\Practice.DDD.SharedKernel.csproj", "{397BE80F-D419-4378-8CD1-34C20B6EB7DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9294C5-1231-4E6C-8AED-D580FA34CC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9294C5-1231-4E6C-8AED-D580FA34CC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9294C5-1231-4E6C-8AED-D580FA34CC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9294C5-1231-4E6C-8AED-D580FA34CC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98BD066-EDAE-4D23-9A28-C3ABA232123D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98BD066-EDAE-4D23-9A28-C3ABA232123D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98BD066-EDAE-4D23-9A28-C3ABA232123D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98BD066-EDAE-4D23-9A28-C3ABA232123D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A7AA7A-E967-4FB4-B756-729AA4B43A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A7AA7A-E967-4FB4-B756-729AA4B43A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A7AA7A-E967-4FB4-B756-729AA4B43A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A7AA7A-E967-4FB4-B756-729AA4B43A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55C22D0-5E94-4C43-A7E8-513F1731F1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55C22D0-5E94-4C43-A7E8-513F1731F1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55C22D0-5E94-4C43-A7E8-513F1731F1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55C22D0-5E94-4C43-A7E8-513F1731F1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397BE80F-D419-4378-8CD1-34C20B6EB7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397BE80F-D419-4378-8CD1-34C20B6EB7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397BE80F-D419-4378-8CD1-34C20B6EB7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397BE80F-D419-4378-8CD1-34C20B6EB7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C9294C5-1231-4E6C-8AED-D580FA34CC11} = {6CD28AE9-8E2C-40DA-958E-798B18C8A57F}
+		{E98BD066-EDAE-4D23-9A28-C3ABA232123D} = {AB27FFF4-BEC2-4FAD-BC43-18AF3916831D}
+		{57A7AA7A-E967-4FB4-B756-729AA4B43A62} = {AB27FFF4-BEC2-4FAD-BC43-18AF3916831D}
+		{A55C22D0-5E94-4C43-A7E8-513F1731F1A9} = {C46B5C36-465D-4517-BA14-FBEF35F571AC}
+		{397BE80F-D419-4378-8CD1-34C20B6EB7DD} = {A1398AED-B6FA-48AD-8E3C-CAF56F39D0CA}
+	EndGlobalSection
+EndGlobal
